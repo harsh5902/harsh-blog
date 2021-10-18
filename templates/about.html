@@ -1,0 +1,31 @@
+{% include "header.html" %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url({{ url_for('static', filename='img/about-bg.jpg')}})">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About Me</h1>
+            <span class="subheading">This is what I do.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>Hello there!! I am Harsh Pande, an Undergraduate computer science student from MIT World Peace University, Pune</p>
+        <p>I am Python and front-end web developer. I am also Data Science and Machine Learning enthusiast, as much as of Netflix 😉😉.</p>
+        <p>I love to learn and to contribute to the open source with my python and Linux skills. So if you ever want to find a coding buddy for you, do collab with me.</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  {% include "footer.html" %}
